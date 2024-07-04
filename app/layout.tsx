@@ -1,4 +1,5 @@
-import { fonts_1, nunito, } from './ui/Fonts';
+import { inter } from './ui/Fonts';
+
 import './ui/global.css';
 
 export default function RootLayout({
@@ -8,8 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${fonts_1.className}  antialiased bg-gray-400`}>
-        <h1 className={`${nunito.className} text-3xl  mt-10 ml-10 text-center font-[800]`}>Bienvenido</h1>
+      <body className={`${inter.className}  antialiased`}>
         {children}
       </body>
     </html>
