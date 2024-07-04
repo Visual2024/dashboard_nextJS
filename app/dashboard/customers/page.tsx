@@ -1,4 +1,7 @@
 
-export default function Page() {
-    return <p>Customers Page</p>;
-  }
+
+export default function CustomerPage(){
+    return(
+        <h1>Bienvenido a Customer</h1>
+    )
+}
